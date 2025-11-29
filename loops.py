@@ -30,10 +30,17 @@ while count < 10:
 # Repeat: The loop goes back to another condition is the first one is not true
 
 # We can access the index (i below) of each element in a loop using the enumerate() function.
+# The enumerate() function takes a collection (e.g. a tuple) and returns it as an enumerate object.
 squares = ['red', 'yellow', 'green', 'purple', 'blue']
 
 for i, square in enumerate(squares):
     print(i, square)
+
+#The enumerate() function adds a counter as the key of the enumerate object.
+#enumerate(iteratable, start)
+# iterable	An iterable object
+# start (optional)	A Number. Defining the start number of the enumerate object. Default 0
+
 
 # the break statement interrupts the loop when after the condition is met
 for num in range(1, 10):
